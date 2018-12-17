@@ -1,235 +1,191 @@
-<!DOCTYPE html>
-<html class="full-height">
+<!doctype html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-  
-  <title>My Works | zhangjiuchao</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="My Works">
-<meta property="og:url" content="http://yoursite.com/works/index.html">
-<meta property="og:site_name" content="zhangjiuchao">
-<meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-01T05:18:52.536Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My Works">
-  
-    <link rel="alternate" href="/atom.xml" title="zhangjiuchao" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/common.css">
-<link rel="stylesheet" href="/css/nav.css">
-<link rel="stylesheet" href="/css/layout.css">
-  
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8" >
+    <meta name="baidu-site-verification" content="dIcXMeY8Ya" />
+    
+    <title>My Works | zhangjiuchao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" >
+    <meta name="keywords" content="Jelon, 前端, Web, 张德龙, 前端开发" >
+    <meta name="description" content="Jelon个人前端小站" >
+
+    
+    <link rel="alternative" href="/atom.xml" title="zhangjiuchao" type="application/atom+xml" >
+    
+    
+    <link rel="shortcut icon" href="/favicon.ico" >
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <!--[if lt IE 9]>
+    <script src="/js/html5.js"></script>
+    <![endif]-->
+    
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?fd459238242776d173cdc64918fb32f2";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
 
 </head>
 
-<body>
-  <header id="navbar" class="overflow-hidden">
-  <div class="container">
-    <nav class="nav">
-         <div class="nav-left">
-            <a href="/" class="nav-item" style="font-size: 20px;">
-              <span class="logo">张久超</span>'s Blog
+<body class="home">
+    <!--[if lt IE 9]>
+    <div class="browsehappy">
+        当前网页 <strong>不支持</strong>
+        你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.
+    </div>
+    <![endif]-->
+
+    <!-- 博客头部 -->
+    <header class="header">
+    <section class="container header-main">
+        <div class="logo">
+            <a href="/">
+                <div class="cover">
+                    <span class="name">zhangjiuchao</span>
+                    <span class="description"></span>
+                </div>
             </a>
-         </div>
-        <div class="nav-center is-hidden position-relative" id="search_container">
-            <div class="nav-item full-width full-height">
-                <i class="fa fa-search has-padding" aria-hidden="true"></i>
-                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
-                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <div class="dropnav icon-paragraph-justify" id="JELON__btnDropNav"></div>
+        <ul class="menu hidden" id="JELON__menu">
+            
+            <li rel="/works/index.html" class="item ">
+                <a href="/" title="首页" class="icon-home">&nbsp;首页</a>
+            </li>
+            
+            <li rel="/works/index.html" class="item ">
+                <a href="/lab/" title="实验室" class="icon-lab">&nbsp;实验室</a>
+            </li>
+            
+            <li rel="/works/index.html" class="item ">
+                <a href="/about/" title="关于" class="icon-about">&nbsp;关于</a>
+            </li>
+            
+            <li rel="/works/index.html" class="item ">
+                <a href="/comment/" title="留言" class="icon-comment">&nbsp;留言</a>
+            </li>
+            
+        </ul>
+        <div class="profile clearfix">
+            <div class="feeds fl">
+                
+                
+                <p class="links">
+                    
+                        <a href="https://github.com/jangdelong" target="_blank">Github</a>
+                        |
+                    
+                        <a href="https://pages.coding.me" target="_blank">Hosted by Coding Pages</a>
+                        
+                    
+                </p>
+                <p class="sns">
+                    
+                        <a href="http://weibo.com/jangdelong" class="sinaweibo" target="_blank"><b>■</b> 新浪微博</a>
+                    
+                        <a href="https://www.facebook.com/profile.php?id=100011855760219&amp;ref=bookmarks" class="qqweibo" target="_blank"><b>■</b> Facebook</a>
+                    
+                    <a href="javascript: void(0);" class="wechat">
+                        <b>■</b>
+                        公众号
+                        <span class="popover">
+                            <img src="/img/wechat_mp.jpg" width="120" height="120" alt="我的微信订阅号">
+                            <i class="arrow"></i>
+                        </span>
+                    </a>
+                </p>
+                
             </div>
-            <div id="search_result"></div>
+            <div class="avatar fr">
+                <img src="/img/jelon.jpg" alt="avatar" title="Jelon" >
+            </div>
         </div>
-        <div class="nav-right nav-menu">
-            <a class="nav-item" id="search">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </a>
-            
-            <a class="nav-item" href="/">
-                主页
-            </a>
-            
-            <a class="nav-item" href="/works">
-                我的作品
-            </a>
-            
-            <a class="nav-item" href="/about">
-                关于
-            </a>
-            
-        </div>
-        <span class="nav-toggle" id="navMenuDropdown">
-            <span></span>
-            <span></span>
-            <span></span>
-        </span>
-        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
-            
-            <a class="nav-item flex-1" href="/">
-                主页
-            </a>
-            
-            <a class="nav-item flex-1" href="/works">
-                我的作品
-            </a>
-            
-            <a class="nav-item flex-1" href="/about">
-                关于
-            </a>
-            
-        </div>
-    </nav>
-  </div>
+    </section>
 </header>
 
-  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
-      <div class="main-inner-content">
-          <style>
 
-    header .bg-header {
-        height: 560px;
-        /*background-color: #62A4FF;*/
-        background-image: -webkit-linear-gradient(top, #54D3DD, #9778F9)
-    }
-
-    /*头像*/
-    .bg-header .avatar img {
-        border-radius: 50%;
-        margin-top: 100px;
-        max-width: 170px;
-    }
-
-    .bg-header h1,
-    .bg-header h2 {
-        color: white;
-    }
-
-    /*姓名*/
-    .bg-header h1 {
-        letter-spacing: 2px;
-        text-shadow: 0 0 10px rgba(15, 15, 15, .3);
-    }
-
-    /*描述*/
-    .bg-header h2 {
-        font-size: 18px;
-        margin-top: 12px;
-    }
-
-    /*整个作品展示区*/
-    .works-area {
-        margin-top: -175px;
-    }
-
-    .works-area .works-item {
-        width: 80%;
-        max-width: 1200px;
-
-        border-radius: 2px;
-        border: 1px solid #eee8d5;
-        margin: 25px auto;
-        box-shadow: 8px 5px 10px rgba(0, 0, 0, .2);
-    }
-
-    .works-item-img {
-        margin: auto -26px;
-    }
-
-    .works-item-img img {
-        width: 100%;
-    }
-
-    .works-area .works-item {
-        background: white;
-        padding: 0 25px 15px;
-    }
-
-    .works-item .works-content {
-        padding-top: 15px;
-    }
-
-    .works-item .title {
-        height: 50px;
-        margin: 0;
-    }
-
-    .works-item .title{
-        font-size: 18px;
-    }
-
-    .works-item .use span {
-        display: inline-block;
-        font-size: 12px;
-        border-radius: 3px;
-        padding: 0 4px;
-        border: thin solid #795548;
-    }
-
-    .works-item .subtitle {
-        margin: 0;
-        font-size: 17px;
-    }
-</style>
-
-<div class="works-container" style="background-color: #fafafa">
-    <header>
-        <div class="bg-header is-flex justify-center">
-            <div class="profile">
-                <div class="avatar">
-                    <img src="https://raw.githubusercontent.com/zhangjiuchao/zhangjiuchao.github.io/master/icon.jpg">
-                </div>
-                <div class="personal-profile has-text-centered content">
-                    <h1>
-                        张久超
-                    </h1>
-                    <h2>-- 个人作品集 --</h2>
-                </div>
-            </div>
-        </div>
+    <!-- 博客正文 -->
+    <div class="container body clearfix">
+        <section class="content">
+            <div class="content-main widget">
+                <!-- 独立页面 -->
+<article class="post article">
+    <header class="text-center">
+        <h4 class="post-title"><a href="javascript: void(0);">My Works</a></h4>
     </header>
-    <div class="container works-area">
+    <div class="post-content">
+        
+            
         
     </div>
+</article>
+            </div>
+
+        </section>
+        <!-- 侧栏部分 -->
+<aside class="sidebar">
+    <section class="widget">
+        <h3 class="widget-hd"><strong>文章分类</strong></h3>
+        <!-- 文章分类 -->
+<ul class="widget-bd">
+    
+</ul>
+    </section>
+
+    
+    <section class="widget">
+        <h3 class="widget-hd"><strong>热门标签</strong></h3>
+        <!-- 文章标签 -->
+<div class="widget-bd tag-wrap">
+  
 </div>
-      </div>
-  </div>
-  <style>
-  #footer {
-    min-height: 10vh;
-    background: black;
-    color: #fff;
-  }
+    </section>
+    
 
-  #footer a {
-    color: #e1e1e1;
-  }
-</style>
-<footer id="footer" class="has-text-centered is-flex center">
-  <div class="container has-padding">
-    <div>
-      <div>
-        <!--请您保留作者署名, 主题制作来之不易-->
-        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
-        <br>
-        Copyright © John Doe 2018
-        <br>
-        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-      </div>
+    
+
+    
+    <!-- 友情链接 -->
+    <section class="widget">
+        <h3 class="widget-hd"><strong>友情链接</strong></h3>
+        <!-- 文章分类 -->
+<ul class="widget-bd">
+    
+        <li>
+            <a href="https://jelon.top" target="_blank" title="Jelon个人前端小站">前端博客小站</a>
+        </li>
+    
+        <li>
+            <a href="https://www.baidu.com" target="_blank" title="百度搜索">百度</a>
+        </li>
+    
+</ul>
+    </section>
+    
+</aside>
+<!-- / 侧栏部分 -->
     </div>
-  </div>
+
+    <!-- 博客底部 -->
+    <footer class="footer">
+    &copy;
+    
+        2016-2018
+    
+
+    <a href="/">Jelon Loves You</a>
 </footer>
+<div class="back-to-top" id="JELON__backToTop" title="返回顶部">返回顶部</div>
 
-<script src="/js/search_core.js"></script>
-<script src="/js/script.js"></script>
-
+    <!--博客js脚本 -->
+    <!-- 这里放网站js脚本 -->
+<script src="/js/main.js"></script>
 </body>
 </html>
